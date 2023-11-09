@@ -31,7 +31,7 @@ jobs:
       run: mvn clean install
     - uses: mr-smithers-excellent/docker-build-push@v6
       name: Build & push Docker image
-        with:
+      with:
         image: vaibhavdabhitatvasoft/githubaction
         tags: v1
         registry: docker.io
