@@ -1,3 +1,3 @@
 FROM openjdk:17-jdk-alpine
-COPY target/*.jar newapp.jar
-ENTRYPOINT [ "java","-jar","/newapp.jar" ]
+COPY target/*.jar githubaction.jar
+ENTRYPOINT [ "java","-jar","/githubaction.jar" ]
