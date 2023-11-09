@@ -8,6 +8,6 @@ public class Controller {
 
 	@GetMapping("/")
 	public String homePage() {
-		return "Welcome to first github action demo";
+		return "Welcome to first github action demo ....";
 	}
 }
